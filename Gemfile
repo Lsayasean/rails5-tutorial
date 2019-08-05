@@ -27,6 +27,12 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# bootstrap-sass is a Sass-powered version of Bootstrap 3
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+
+# controller testing
+gem 'rails-controller-testing'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
