@@ -37,6 +37,16 @@ gem 'jquery-rails'
 # controller testing
 gem 'rails-controller-testing'
 
+# addes fake users
+gem 'faker', '~> 2.1'
+
+
+# will_paginate provides a simple API for performing paginated queries with Active Record
+gem 'will_paginate', '~> 3.1', '>= 3.1.7'
+
+# Hooks into will_paginate to format the html to match Twitter Bootstrap styling.
+gem 'bootstrap-will_paginate', '~> 1.0'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
