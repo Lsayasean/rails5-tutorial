@@ -31,6 +31,9 @@ gem 'bcrypt', '~> 3.1.7'
 # bootstrap-sass is a Sass-powered version of Bootstrap 3
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
+# Jquery
+gem 'jquery-rails'
+
 # controller testing
 gem 'rails-controller-testing'
 
