@@ -74,4 +74,14 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
+  test "should follow and unfollow a user" do
+    mochi = users(:mochi)
+    archer  = users(:archer)
+    assert_not mochi.following?(archer)
+    mochi.follow(archer)
+    assert mochi.following?(archer)
+    mochi.unfollow(archer)
+    assert_not mochi.following?(archer)
+  end
+
 end
