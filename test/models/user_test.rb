@@ -80,6 +80,7 @@ class UserTest < ActiveSupport::TestCase
     assert_not mochi.following?(archer)
     mochi.follow(archer)
     assert mochi.following?(archer)
+    assert archer.followers.include?(mochi)
     mochi.unfollow(archer)
     assert_not mochi.following?(archer)
   end
