@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-
+ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -24,36 +24,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
-
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.7'
-
-#Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick
-gem 'mini_magick', '~> 4.9', '>= 4.9.5'
-
-# Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends.
-gem 'carrierwave', '~> 1.3', '>= 1.3.1'
-
-# bootstrap-sass is a Sass-powered version of Bootstrap 3
-gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
-
-# Jquery
-gem 'jquery-rails'
-
-# controller testing
-gem 'rails-controller-testing'
-
-# addes fake users
-gem 'faker', '~> 2.1'
-
-gem 'pg', '~> 1.1', '>= 1.1.4'
-
-
-# will_paginate provides a simple API for performing paginated queries with Active Record
-gem 'will_paginate', '~> 3.1', '>= 3.1.7'
-
-# Hooks into will_paginate to format the html to match Twitter Bootstrap styling.
-gem 'bootstrap-will_paginate', '~> 1.0'
+# gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -76,8 +48,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-# The Ruby cloud services library. Supports all major cloud providers including AWS, Rackspace, Linode, Blue Box, StormOnDemand, and many others. Full support for most AWS services including EC2, S3, CloudWatch, SimpleDB, ELB, and RDS.
-  gem 'fog', '~> 2.2'
 end
 
 group :test do
