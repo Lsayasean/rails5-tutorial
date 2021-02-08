@@ -32,7 +32,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'mini_magick', '~> 4.9', '>= 4.9.5'
 
 # Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends.
-gem 'carrierwave', '~> 1.3', '>= 1.3.1'
+gem 'carrierwave', '~> 1.3'
 
 # bootstrap-sass is a Sass-powered version of Bootstrap 3
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
